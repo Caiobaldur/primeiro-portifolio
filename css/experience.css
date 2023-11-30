@@ -6,3 +6,79 @@
   grid-template-columns: 1fr 2fr;
   gap: 10rem;
 }
+
+.experiencia .subtitle {
+  color: #D9E4E6;
+}
+
+.experiencia_text {
+  font-size: 2.5rem;
+  line-height: 1.33;
+  margin-bottom: 6rem;
+  max-width: 40ch;
+  color: #0E1516;
+}
+
+.experiencia_text strong {
+  color: #141414;
+}
+
+.enterprise {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 2rem;
+  padding: 2rem;
+  background-color: #E0EAEB;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  position: relative;
+}
+
+.enterprise::before{
+  content: '';
+  display: block;
+  width: .4rem;
+  height: 2rem;
+  background: linear-gradient(#89AFB3, #63969C);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+.enterprise_year {
+  position: absolute;
+  top: 24px;
+  left: -100px;
+  color: #141414;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-align: right;
+  width: 8rem;
+}
+
+.enterprise_title{
+  font-size: 2rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.enterprise_text{
+  font-size: 1.3rem;
+  line-height: 1.3;
+  color: #0E1516;
+}
+
+.enterprise_skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-content: start;
+}
+
+.enterprise_skills li {
+  font-size: 1.4rem;
+  line-height: 1.3;
+  border-radius: .4rem;
+  background: #fff;
+  padding: .5rem 1rem;
+}
