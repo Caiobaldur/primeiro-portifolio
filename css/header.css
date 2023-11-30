@@ -10,7 +10,7 @@
 .header_menu{
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2.5rem;
   justify-content: center;
 }
 
@@ -21,6 +21,7 @@
   padding: 1rem 2rem;
   text-decoration: none;
   color: #141414;
+  
 }
 
 @media (max-width:800px){
