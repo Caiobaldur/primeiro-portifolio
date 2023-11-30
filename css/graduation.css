@@ -1,4 +1,9 @@
-. {
+.graduation{
+  background-color: #0E1516;
+  color: #fff;
+}
+
+.graduation_container {
   max-width: 1200px;
   padding: 4rem 2rem;
   margin: 0 auto;
@@ -6,4 +11,96 @@
   grid-template-columns: 1fr 2fr;
   gap: 10rem;
   align-items: center;
+}
+
+.graduation .subtitle {
+  color: #000;
+}
+
+.graduation_text {
+  font-size: 2.5rem;
+  line-height: 1.33;
+  margin-bottom: 6rem;
+  max-width: 40ch;
+  color: #E0EAEB;
+}
+
+.graduation_text strong{
+  color: #fff;
+}
+
+.college_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 6rem;
+}
+
+.college{
+  background: #000;
+  padding: 2rem;
+  border-radius: .4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.college_type{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #E0EAEB;
+  margin-bottom: 1rem;
+}
+
+.college_course {
+  flex: 1;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.college_course::before{
+  content: '';
+  display: block;
+  width: .4rem;
+  height: 2rem;
+  background: linear-gradient(#89AFB3, #63969C);
+  position: absolute;
+  top: 0px;
+  left: -24px;
+}
+
+.college_institution{
+  font-size: 1.6rem;
+  color: #E0EAEB;
+}
+
+.courses {
+  margin-bottom: 6rem;
+}
+
+.training_extra h3 {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: E0EAEB;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.training_extra h3::before{
+  display: block;
+  content: '';
+  width: 2.4rem;
+  height: 2.4rem; 
+  position: absolute;
+  left: -36px;
+  top: -3px;
+}
+
+.courses h3::before{
+  background: url(../img/cursos.svg) no-repeat center center;
+}
+
+.languages h3::before {
+  background: url(../img/idiomas.svg) no-repeat center center;
 }
