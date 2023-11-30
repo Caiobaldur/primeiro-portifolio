@@ -10,7 +10,8 @@
 
 body {
   font-family: 'Fira Sans', Arial, sans-serif;
-  color: #141414;
+  color: #0E1516;
+  background-color: #E9F0F1;
 }
 
 h1,h2,h3,p {
@@ -26,4 +27,5 @@ ul {
 img {
   max-width: 100%;
   display: block;
+  mix-blend-mode: multiply;
 }
