@@ -29,3 +29,11 @@ img {
   display: block;
   mix-blend-mode: multiply;
 }
+
+.subtitle {
+  font-size: 12rem;
+  line-height: 1;
+  text-transform: uppercase;
+  max-width: 4ch;
+  word-break: break-all;
+}
