@@ -37,3 +37,12 @@ img {
   max-width: 4ch;
   word-break: break-all;
 }
+
+@media (max-width: 800px) {
+.subtitle{
+  font-size: 8rem;
+  text-transform: capitalize;
+  max-width: initial;
+}
+
+}
