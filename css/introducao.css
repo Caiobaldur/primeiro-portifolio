@@ -11,7 +11,7 @@
 .introducao h1 {
   font-size: 7.5rem;
   line-height: 1;
-  margin-bottom: 30px;
+  margin-bottom: 1rem;
   position: relative;
 }
 
@@ -22,22 +22,27 @@
   height: 10rem;
   background: url(/img/detalhe.svg) no-repeat center;
   position: absolute;
-  top: -15px;
+  top: -25px;
   left: -40px;
   z-index: -1;
 }
 
-.introducao .button {
+.button_wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.introducao .button img{
   text-decoration: none;
   color: aliceblue;
   font-size: 1.8rem;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   background-color: #577174;
   border-radius: .5rem;
   transition: .5s ease-in-out;
 }
 
-.button:hover {
+.button:hover img{
   background-color: #63969C;
   cursor: pointer;
   transition: .5s ease-in-out;
