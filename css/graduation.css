@@ -5,7 +5,7 @@
 
 .graduation_container {
   max-width: 1200px;
-  padding: 4rem 2rem;
+  padding: 12rem 2rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -15,13 +15,14 @@
 
 .graduation .subtitle {
   color: #cfcfcf;
+  max-width: 5ch;
 }
 
 .graduation_text {
   font-size: 2.5rem;
   line-height: 1.33;
   margin-bottom: 6rem;
-  max-width: 40ch;
+  max-width: 45ch;
   color: #E0EAEB;
 }
 
@@ -118,4 +119,21 @@
 .courses li{
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width:800px) {
+  .graduation_container{
+    grid-template-columns: 1fr;
+    padding: 6rem 2rem;
+    gap: 4rem;
+  }
+
+  .graduation_text {
+    font-size: 2rem;
+  }
+
+  .training_extra h3::before{
+    position: static;
+    margin-bottom: 1rem;
+  }
 }
