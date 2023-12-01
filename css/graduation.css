@@ -104,3 +104,18 @@
 .languages h3::before {
   background: url(../img/idiomas.svg) no-repeat center center;
 }
+
+.training_extra li{
+  font-size: 1.5rem;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.training_extra span {
+  color: #8f8f8f;
+}
+
+.courses li{
+  display: flex;
+  justify-content: space-between;
+}
